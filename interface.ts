@@ -10,14 +10,15 @@ const person1={
     name:"chinedu",
     age:20,
     gender:"male",
-    isSingle:true,
+    isSingle:false,
     details(){
        return `${this.name} is a ${this.gender} of age ${this.age} , ${this.isSingle? "maried":"not maried"}`
     }
 }
 
-const printPersonDetails=(person:Person):void=>{
-    person.details()
+const printPersonDetails=(person:Person):string=>{
+    console.log(person.details())
+   return person.details()
 
 }
 
