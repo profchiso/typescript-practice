@@ -10,6 +10,10 @@ console.log(tesla.drive());
 
 
 class newCar extends Car {
+    drive(): string {
+        return `${this.name} is driving now`;
+    }
+    
    
 }
 
