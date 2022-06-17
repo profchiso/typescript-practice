@@ -7,3 +7,11 @@ class Car {
 }
 const tesla = new Car();
 console.log(tesla.drive());
+
+
+class newCar extends Car {
+   
+}
+
+const vBoot=new newCar();
+console.log(vBoot.drive());
